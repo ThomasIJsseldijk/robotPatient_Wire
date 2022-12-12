@@ -1,0 +1,26 @@
+{
+  "name": "robotPatient_Wire",
+  "version": "1.0.0",
+  "description": "Wire library for the baby reanimatie simulator by Johan Korten",
+  "keywords": "robotPatient",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ThomasIJsseldijk/robotPatient_Wire.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Thomas IJsseldijk",
+      "email": "thomas.ijsseldijk@gmail.com",
+      "maintainer": true
+    },
+    {
+      "name": "Johan Korten",
+      "url": "https://robotpatient.com/",
+      "maintainer": false
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "atmelsam"
+}
