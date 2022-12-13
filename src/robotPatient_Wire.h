@@ -11,7 +11,7 @@
 #ifndef ROBOTPATIENT_WIRE_H
 #define ROBOTPATIENT_WIRE_H
 
-#define sensorHub
+//#define sensorHub
 //#define mainBoard
 
 
