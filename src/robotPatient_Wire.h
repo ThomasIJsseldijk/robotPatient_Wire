@@ -27,6 +27,10 @@ class robotPatient_Wire
 {
 private:
 
+
+
+public:
+    
 typedef struct port
 {
 
@@ -36,9 +40,6 @@ typedef struct port
     EPioType sercomType;
 
 } port;
-
-public:
-
 
     TwoWire *dataWire;
     robotPatient_Wire();
