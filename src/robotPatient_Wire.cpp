@@ -36,8 +36,8 @@ void robotPatient_Wire::begin(port channel, byte slaveAdress)
 
     dataWire = new TwoWire(channel.sercom, channel.sdaPin, channel.sclPin);
     dataWire->begin(slaveAdress);
-    // pinPeripheral(channel.sdaPin, channel.sercomType);
-    // pinPeripheral(channel.sclPin, channel.sercomType);
+    pinPeripheral(channel.sdaPin, channel.sercomType);
+    pinPeripheral(channel.sclPin, channel.sercomType);
 }
 /**
  * @brief
